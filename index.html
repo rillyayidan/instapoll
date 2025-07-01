@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaPoll - Buat Polling Cepat dengan Satu Klik</title>
+    <link rel="icon" href="icon.png" type="image/png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="/" class="logo">InstaPoll</a>
+            
+            <!-- Desktop Navigation -->
+            <ul class="nav-links">
+                <li><a href="/" class="active">Beranda</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+                <li><a href="langganan.html">Berlangganan</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+            
+            <!-- Desktop Buttons -->
+            <div class="nav-buttons">
+                <a href="buat-polling.html" class="btn btn-outline">Polling Terbaru</a>
+                <a href="#" class="btn btn-primary">Masuk</a>
+            </div>
+
+            <!-- Hamburger Menu -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav" id="mobileNav">
+            <div class="mobile-nav-content">
+                <ul class="mobile-nav-links">
+                    <li><a href="/" class="active">Beranda</a></li>
+                    <li><a href="tentang.html">Tentang</a></li>
+                    <li><a href="langganan.html">Berlangganan</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+                <div class="mobile-nav-buttons">
+                    <a href="buat-polling.html" class="btn btn-outline">Polling Terbaru</a>
+                    <a href="#" class="btn btn-primary">Masuk</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="beranda">
+        <!-- Floating Particles -->
+        <div class="hero-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-rocket"></i>
+                    Platform Polling Terdepan
+                </div>
+                
+                <h1>Buat Polling <span class="highlight">Cepat</span> dengan Satu Klik</h1>
+                
+                <p>Masukkan topik, dapatkan pertanyaan polling yang relevan dan insight mendalam dari responden Anda</p>
+                
+                <div class="hero-cta">
+                    <a href="buat-polling.html" class="btn btn-primary">
+                        Buat Polling Sekarang
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#demo" class="btn btn-outline">
+                        <i class="fas fa-play"></i>
+                        Lihat Demo
+                    </a>
+                </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">50K+</div>
+                    <div class="stat-label">Polling Dibuat</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">25K+</div>
+                    <div class="stat-label">Pengguna Aktif</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">1M+</div>
+                    <div class="stat-label">Suara Terkumpul</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">99%</div>
+                    <div class="stat-label">Tingkat Kepuasan</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="features-title">Fitur Utama</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-number">1</div>
+                    <h3>AI Polling Generator</h3>
+                    <p>Membuat polling secara cepat dan memuaskan sektor. AI Polling Generator bisa polling otomatis dengan capat dan mudah.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-number">2</div>
+                    <h3>Kustomisasi Mudah</h3>
+                    <p>Kustomisasi tema dan membing-langkan! Kustomisasi polling yang mudah memungkinkan anda untuk buat polling dengan cepat dan sampai tanpa repot.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-number">3</div>
+                    <h3>Analisis Real-time</h3>
+                    <p>Buka memantau hasil polling dengan cepat belum kepuusan terbentuk. Dengan analisis Real Time, Anda dapat langsung lively dan aktial diberikan lewat forum kesebadkang.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">Cara Kerja InstaPoll</h2>
+            <p class="section-subtitle">Buat polling dalam 3 langkah mudah</p>
+            <div class="steps-container">
+                <div class="step-item">
+                    <div class="step-icon">
+                        <span class="step-number">1</span>
+                    </div>
+                    <div class="step-content">
+                        <h3>Masukkan Topik</h3>
+                        <p>Ketik topik atau pertanyaan yang ingin Anda jadikan polling. AI kami akan menganalisis dan memberikan saran.</p>
+                    </div>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step-item">
+                    <div class="step-icon">
+                        <span class="step-number">2</span>
+                    </div>
+                    <div class="step-content">
+                        <h3>Kustomisasi</h3>
+                        <p>Sesuaikan pilihan jawaban, tema, dan pengaturan polling sesuai kebutuhan Anda.</p>
+                    </div>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step-item">
+                    <div class="step-icon">
+                        <span class="step-number">3</span>
+                    </div>
+                    <div class="step-content">
+                        <h3>Bagikan & Analisis</h3>
+                        <p>Bagikan polling Anda dan lihat hasil real-time dengan analisis mendalam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial">
+        <div class="container">
+            <h2 class="testimonial-title">What They Know About Us</h2>
+            <div class="testimonial-card">
+                <div class="testimonial-avatar">👤</div>
+                <h3 class="testimonial-name">Atiya Rully</h3>
+                <p class="testimonial-role">Founder of UI Design</p>
+                <p class="testimonial-text">InstaPoll adalah alat yang luar biasa untuk membuat polling dengan cepat dan mudah. Interface yang intuitif dan fitur AI yang canggih membuat InstaPoll menjadi pilihan utama untuk kebutuhan polling kami. Sangat direkomendasikan untuk siapa saja yang membutuhkan solusi polling yang efisien.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="paket-harga">
+        <div class="container">
+            <h2 class="pricing-title">Paket Harga</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-icon"></div>
+                    <h3>Basic</h3>
+                    <ul class="pricing-features">
+                        <li>AI Generated Poll Limited 10 Perthar</li>
+                        <li>Simple live Chart For Visualization</li>
+                        <li>Dan lain sebagainya</li>
+                    </ul>
+                    <a href="buat-polling.html" class="btn btn-outline">Gratis</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-icon"></div>
+                    <h3>Exclusive</h3>
+                    <ul class="pricing-features">
+                        <li>AI Generated polls with multi-step reasoning</li>
+                        <li>Real-time live visual advance</li>
+                        <li>Cross-tab segmentation (gender, age, location)</li>
+                        <li>Time series charts (hourly, daily, weekly)</li>
+                        <li>Engagement Insights</li>
+                    </ul>
+                    <a href="langganan.html" class="btn btn-primary">Beli Sekarang!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Pertanyaan yang Sering Diajukan</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Apakah InstaPoll gratis untuk digunakan?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Ya, InstaPoll menyediakan paket Basic yang gratis dengan fitur dasar. Untuk fitur advanced, tersedia paket Exclusive berbayar.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Bagaimana AI menghasilkan pertanyaan polling?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>AI kami menganalisis topik yang Anda masukkan dan menggunakan machine learning untuk menghasilkan pertanyaan yang relevan dan pilihan jawaban yang sesuai.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Berapa lama polling dapat berjalan?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Tidak ada batasan waktu untuk polling. Anda dapat mengatur polling untuk berjalan selama yang Anda inginkan atau menutupnya kapan saja.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Apakah data polling aman dan privat?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Keamanan data adalah prioritas utama kami. Semua data dienkripsi dan disimpan dengan standar keamanan tinggi sesuai regulasi perlindungan data.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Siap Membuat Polling Pertama Anda?</h2>
+                <p>Bergabunglah dengan ribuan pengguna yang sudah merasakan kemudahan InstaPoll</p>
+                <div class="cta-buttons">
+                    <a href="buat-polling.html" class="btn btn-primary btn-large">Mulai Gratis Sekarang</a>
+                    <a href="tentang.html" class="btn btn-outline btn-large">Pelajari Lebih Lanjut</a>
+                </div>
+            </div>
+            <div class="cta-decoration">
+                <div class="decoration-circle circle-1"></div>
+                <div class="decoration-circle circle-2"></div>
+                <div class="decoration-circle circle-3"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h2>Dapatkan Update Terbaru</h2>
+                    <p>Berlangganan newsletter kami untuk mendapatkan tips polling, fitur terbaru, dan penawaran khusus langsung ke email Anda.</p>
+                </div>
+                <div class="newsletter-form">
+                    <form class="subscribe-form">
+                        <div class="form-group">
+                            <input type="email" placeholder="Masukkan email Anda" class="email-input" required>
+                            <button type="submit" class="btn btn-primary">Berlangganan</button>
+                        </div>
+                    </form>
+                    <p class="newsletter-privacy">Kami menghormati privasi Anda. Unsubscribe kapan saja.</p>
+                </div>
+            </div>
+            <div class="newsletter-benefits">
+                <div class="benefit-item">
+                    <span class="benefit-icon">📊</span>
+                    <span>Tips polling terbaik</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="benefit-icon">🚀</span>
+                    <span>Fitur terbaru</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="benefit-icon">💰</span>
+                    <span>Penawaran eksklusif</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>InstaPoll</h4>
+                    <p>Kenayan, Wedornartani, Ngemplak, Sleman, Yogyakarta 55584</p>
+                    <p>InstaPoll@gmail.com</p>
+                    <p>+62 813 7881 5549</p>
+                    <p>©InstaPoll2025</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="/">Beranda</a></li>
+                        <li><a href="tentang.html">Tentang</a></li>
+                        <li><a href="langganan.html">Berlangganan</a></li>
+                        <li><a href="kontak.html">Kontak</a></li>
+                        <li><a href="#">Privacy Policy | Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 InstaPoll. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript untuk Mobile Navigation - BARU -->
+    <script>
+        // Scroll Reveal untuk Stats
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            rootMargin: '-10% 0px -10% 0px',
+            threshold: 0.1
+        });
+
+        // Jalankan ketika DOM ready
+        document.addEventListener('DOMContentLoaded', () => {
+            const statsSection = document.querySelector('.stats');
+            if (statsSection) {
+                observer.observe(statsSection);
+            }
+
+            const featuresSection = document.querySelector('.features');
+            if (featuresSection) {
+                observer.observe(featuresSection);
+            }
+
+            const howItWorksSection = document.querySelector('.how-it-works');
+            if (howItWorksSection) {
+                observer.observe(howItWorksSection);
+            }
+
+            const testimonialSection = document.querySelector('.testimonial');
+            if (testimonialSection) {
+                observer.observe(testimonialSection);
+            }
+
+            const pricingSection = document.querySelector('.pricing');
+            if (pricingSection) {
+                observer.observe(pricingSection);
+            }
+
+            const faqSection = document.querySelector('.faq');
+            if (faqSection) {
+                observer.observe(faqSection);
+            }
+
+            const ctaSection = document.querySelector('.cta');
+            if (ctaSection) {
+                observer.observe(ctaSection);
+            }
+
+            const newsletterSection = document.querySelector('.newsletter');
+            if (newsletterSection) {
+                observer.observe(newsletterSection);
+            }
+
+            const footerSection = document.querySelector('.footer');
+            if (footerSection) {
+                observer.observe(footerSection);
+            }
+        });
+
+        // Hamburger menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const mobileNav = document.getElementById('mobileNav');
+
+        hamburger.addEventListener('click', function() {
+            hamburger.classList.toggle('active');
+            mobileNav.classList.toggle('active');
+        });
+
+        // Close mobile nav when clicking outside
+        mobileNav.addEventListener('click', function(e) {
+            if (e.target === mobileNav) {
+                hamburger.classList.remove('active');
+                mobileNav.classList.remove('active');
+            }
+        });
+
+        // Close mobile nav when clicking on a link
+        const mobileNavLinks = document.querySelectorAll('.mobile-nav-links a, .mobile-nav-buttons a');
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                hamburger.classList.remove('active');
+                mobileNav.classList.remove('active');
+            });
+        });
+
+        // FAQ Toggle Functionality
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const faqItem = question.parentElement;
+                const isActive = faqItem.classList.contains('active');
+                
+                // Close all FAQ items
+                document.querySelectorAll('.faq-item').forEach(item => {
+                    item.classList.remove('active');
+                    item.querySelector('.faq-answer').style.display = 'none';
+                });
+                
+                // Open clicked item if it wasn't active
+                if (!isActive) {
+                    faqItem.classList.add('active');
+                    faqItem.querySelector('.faq-answer').style.display = 'block';
+                }
+            });
+        });
+
+        // Initially hide all FAQ answers
+        document.querySelectorAll('.faq-answer').forEach(answer => {
+            answer.style.display = 'none';
+        });
+
+        // Scroll effect for navbar
+        const header = document.getElementById('header');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth scroll for better UX
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
